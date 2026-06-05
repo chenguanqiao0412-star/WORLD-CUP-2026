@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>2026美加墨世界杯沙盘预测器</title>
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Theme controls and standalone indicators for matching iOS/Android bars -->
+    <meta name="theme-color" content="#070e1e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="世界杯沙盘" />
+    <link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=180&h=180&fit=crop&q=80" />
+    <!-- Hide navigation elements when loaded inside mobile webviews if needed -->
+    <style>
+      /* Smooth transitions for high performance touch screens */
+      body {
+        background-color: #070e1e;
+        -webkit-tap-highlight-color: transparent;
+        overscroll-behavior-y: none; /* Prevents typical browser rubber-banding scroll */
+      }
+      /* Prevent text selection on standard UI headers */
+      .select-none {
+        -webkit-user-select: none;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

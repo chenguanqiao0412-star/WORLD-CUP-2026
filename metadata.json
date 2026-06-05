@@ -1,0 +1,6 @@
+{
+  "name": "2026美加墨世界杯预测器",
+  "description": "用于预测2026美加墨世界杯全部小组赛与淘汰赛阶段，自动计算各小组排名与积晋级形势，并配有AI历史对阵战绩对比与详细比赛数据分析报告功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
